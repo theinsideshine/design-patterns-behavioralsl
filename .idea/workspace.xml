@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add video chainResp">
-      <change afterPath="$PROJECT_DIR$/src/command/Oficina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/PedidoInternacional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/PedidoPeligroso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/TratamientoPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/TratamientoPedidoInternacional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/TratamientoPedidoMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/TratamientoPedidoPeligroso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/example/CommandApp.java" afterDir="false" />
+    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add command pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +36,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.CommandApp">
@@ -126,12 +119,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715868076058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add command pattern">
+      <created>1715867198812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715867198812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commint" />
     <MESSAGE value="add video chainResp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add video chainResp" />
+    <MESSAGE value="add command pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add command pattern" />
   </component>
 </project>
