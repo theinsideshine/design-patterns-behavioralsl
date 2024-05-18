@@ -4,9 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add command pattern">
+    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add video command pattern">
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/ExpressionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/example/InterpreterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Coordinador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/Telefono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediator/example/MediatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/ConcreteElementA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/ConcreteElementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/ConcreteVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visitor/example/visitorApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +59,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CommandApp">
+  <component name="RunManager" selected="Application.MediatorApp">
     <configuration name="ChainRApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chain.responsability.example.ChainRApp" />
       <module name="behavioral-patterns" />
@@ -67,19 +86,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="InterpreterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interpreter.example.InterpreterApp" />
       <module name="behavioral-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interpreter.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SrpApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="srp.example.SrpApp" />
+    <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mediator.example.MediatorApp" />
       <module name="behavioral-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="srp.example.*" />
+          <option name="PATTERN" value="mediator.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="visitorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitor.example.visitorApp" />
+      <module name="behavioral-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="visitor.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,10 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorApp" />
+        <item itemvalue="Application.visitorApp" />
+        <item itemvalue="Application.InterpreterApp" />
         <item itemvalue="Application.CommandApp" />
         <item itemvalue="Application.ChainRApp" />
-        <item itemvalue="Application.SrpApp" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,13 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715867198812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add video command pattern">
+      <created>1715940170480</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715940170480</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commint" />
     <MESSAGE value="add video chainResp" />
     <MESSAGE value="add command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add command pattern" />
+    <MESSAGE value="add video command pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add video command pattern" />
   </component>
 </project>
