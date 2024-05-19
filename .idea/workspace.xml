@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add video command pattern">
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/ExpressionEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/Subtract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interpreter/example/InterpreterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Coordinador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/Telefono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mediator/example/MediatorApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/ConcreteElementA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/ConcreteElementB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/ConcreteVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visitor/example/visitorApp.java" afterDir="false" />
+    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add video interpreter and visitor patterns">
+      <change afterPath="$PROJECT_DIR$/src/memento/state/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/state/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/state/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/state/example/MementoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/text/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/text/TextEditorCaretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/text/TextEditorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/text/example/TextEditorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,33 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MediatorApp">
-    <configuration name="ChainRApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chain.responsability.example.ChainRApp" />
-      <module name="behavioral-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chain.responsability.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.example.CommandApp" />
-      <module name="behavioral-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="command.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TextEditorDemo">
     <configuration name="InterpreterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interpreter.example.InterpreterApp" />
       <module name="behavioral-patterns" />
@@ -112,6 +75,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MementoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memento.state.example.MementoApp" />
+      <module name="behavioral-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memento.state.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextEditorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="memento.text.example.TextEditorDemo" />
+      <module name="behavioral-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="memento.text.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="visitorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="visitor.example.visitorApp" />
       <module name="behavioral-patterns" />
@@ -127,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextEditorDemo" />
+        <item itemvalue="Application.MementoApp" />
         <item itemvalue="Application.MediatorApp" />
         <item itemvalue="Application.visitorApp" />
         <item itemvalue="Application.InterpreterApp" />
-        <item itemvalue="Application.CommandApp" />
-        <item itemvalue="Application.ChainRApp" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715940170480</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add video interpreter and visitor patterns">
+      <created>1716044304058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716044304058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,6 +176,7 @@
     <MESSAGE value="add video chainResp" />
     <MESSAGE value="add command pattern" />
     <MESSAGE value="add video command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add video command pattern" />
+    <MESSAGE value="add video interpreter and visitor patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="add video interpreter and visitor patterns" />
   </component>
 </project>

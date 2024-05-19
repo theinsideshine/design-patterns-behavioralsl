@@ -17,3 +17,31 @@ Interpreter pattern
 
 Iterator and visitor pattern
 [![IterartorVisitor](images/video-visitor.png)](https://youtu.be/WZk0Py2Jafw)
+
+
+pattern
+[![](images)]()
+
+
+pattern
+[![](images)]()
+
+
+pattern
+[![](images)]()
+
+
+
+pattern
+[![](images)]()
+
+
+
+pattern
+[![](images)]()
+
+
+
+pattern
+[![](images)]()
+
