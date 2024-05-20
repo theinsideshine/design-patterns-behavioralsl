@@ -19,21 +19,20 @@ Iterator and visitor pattern
 [![IterartorVisitor](images/video-visitor.png)](https://youtu.be/WZk0Py2Jafw)
 
 
-pattern
-[![](images)]()
+Mediator pattern
+[![Mediator](images/video-mediator.png)](https://youtu.be/tvdzWDbg-oE)
 
 
-pattern
-[![](images)]()
+Memento pattern
+[![Memento](images/video-memento.png)](https://youtu.be/9r46ge21zy0v)
 
 
-pattern
-[![](images)]()
+State pattern
+[![State](images/video-state.png)](https://www.youtube.com/watch?v=fBQxnTXv4TI)
 
 
-
-pattern
-[![](images)]()
+Strategy pattern
+[![Strategy](images/video-strategy.png)](https://youtu.be/GnGn8LWiEIc)
 
 
 

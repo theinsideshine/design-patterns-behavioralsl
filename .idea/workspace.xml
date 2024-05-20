@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add memento pattern">
-      <change afterPath="$PROJECT_DIR$/src/state/Apagado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Cocinando.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/EstadoHorno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Horno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/PotenciaMinima.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/PuertaAbierta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/example/StateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/DisneyPriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/NetflixPriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Partner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/SpotifyPriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/SubscriptionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/example/strategyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/problema" afterDir="false" />
+    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add state, strategy patterns">
+      <change afterPath="$PROJECT_DIR$/src/template/InscripcionLucha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/InscripcionTenis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/InscripcionTorneo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Polideportivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Solicitud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/Torneo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/example/TemplateApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,28 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/desafios/meli/meli-interview-back-main-evaluado/meli-interview-back-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/desafios/meli/meli-interview-back-main-evaluado/meli-interview-back-main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.strategyApp">
-    <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mediator.example.MediatorApp" />
-      <module name="behavioral-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mediator.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MementoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="memento.state.example.MementoApp" />
       <module name="behavioral-patterns" />
@@ -88,6 +67,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="state.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="template.example.TemplateApp" />
+      <module name="behavioral-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="template.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,9 +117,9 @@
       <list>
         <item itemvalue="Application.strategyApp" />
         <item itemvalue="Application.StateApp" />
+        <item itemvalue="Application.TemplateApp" />
         <item itemvalue="Application.TextEditorDemo" />
         <item itemvalue="Application.MementoApp" />
-        <item itemvalue="Application.MediatorApp" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716126450550</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add state, strategy patterns">
+      <created>1716217387006</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716217387006</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add state, strategy patterns">
+      <created>1716214902212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716214902212</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +198,7 @@
     <MESSAGE value="add video command pattern" />
     <MESSAGE value="add video interpreter and visitor patterns" />
     <MESSAGE value="add memento pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add memento pattern" />
+    <MESSAGE value="add state, strategy patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="add state, strategy patterns" />
   </component>
 </project>
