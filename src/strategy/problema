@@ -1,0 +1,55 @@
+public class SubscriptionDTO {
+
+    private Long id;
+    private String partner;
+    private float price; // Precio de la suscripción
+
+    // Constructores, getters y setters
+
+    public SubscriptionDTO() {
+        // Constructor vacío
+    }
+
+    public SubscriptionDTO(Long id, String partner) {
+        this.id = id;
+        this.partner = partner;
+        this.price = calculatePrice(partner); // Calculamos el precio en base al socio
+    }
+
+    // Getters y setters
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getPartner() {
+        return partner;
+    }
+
+    public void setPartner(String partner) {
+        this.partner = partner;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    // Método para calcular el precio en base al socio
+    private float calculatePrice(String partner) {
+        switch (partner) {
+            case "disney":
+                return 100;
+            case "netflix":
+                return 200;
+            case "spotify":
+                return 50;
+            default:
+                return 0; // Precio cero para socios desconocidos
+        }
+    }
+}
+ // Implementar un patron de diseño para no tener dependencia de las subscripscion
