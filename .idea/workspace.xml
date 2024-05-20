@@ -47,13 +47,26 @@
     &quot;last_opened_file_path&quot;: &quot;D:/desafios/meli/meli-interview-back-main-evaluado/meli-interview-back-main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.strategyApp">
-    <configuration name="MementoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memento.state.example.MementoApp" />
+  <component name="RunManager" selected="Application.ObservedApp2">
+    <configuration name="ObservedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.example.ObservedApp" />
       <module name="behavioral-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memento.state.example.*" />
+          <option name="PATTERN" value="observer.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObservedApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.example.ObservedApp2" />
+      <module name="behavioral-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextEditorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memento.text.example.TextEditorDemo" />
-      <module name="behavioral-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="memento.text.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="strategyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.example.strategyApp" />
       <module name="behavioral-patterns" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObservedApp2" />
+        <item itemvalue="Application.ObservedApp" />
+        <item itemvalue="Application.TemplateApp" />
         <item itemvalue="Application.strategyApp" />
         <item itemvalue="Application.StateApp" />
-        <item itemvalue="Application.TemplateApp" />
-        <item itemvalue="Application.TextEditorDemo" />
-        <item itemvalue="Application.MementoApp" />
       </list>
     </recent_temporary>
   </component>

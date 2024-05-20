@@ -12,12 +12,10 @@ public class InscripcionLucha extends InscripcionTorneo {
     @Override
     protected boolean puedeApuntarse(Solicitud solicitud) {
         if (solicitud.getEdat() < 15) {
-            // menores de 15 no pueden apuntarse
             return false;
         }
 
         if (solicitud.getPeso() < 60) {
-            // peso minimo, 60 kilos
             return false;
         }
         return true;
@@ -26,14 +24,11 @@ public class InscripcionLucha extends InscripcionTorneo {
     @Override
     protected void cierraTorneo() {
         System.out.println("Cerrando torneo: " + torneo.getNombre());
-
-        polideportivo.reserva(torneo, 4);
+        polideportivo.reserva(torneo, 4); // Ajustar las horas según sea necesario
     }
 
     @Override
     protected int maximoPartipantes() {
         return 6;
     }
-
-
 }

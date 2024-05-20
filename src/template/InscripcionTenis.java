@@ -12,7 +12,6 @@ public class InscripcionTenis extends InscripcionTorneo {
     @Override
     protected boolean puedeApuntarse(Solicitud solicitud) {
         if (solicitud.getEdat() < 10) {
-            // menores de 10 no pueden apuntarse
             return false;
         }
 
@@ -22,15 +21,11 @@ public class InscripcionTenis extends InscripcionTorneo {
     @Override
     protected void cierraTorneo() {
         System.out.println("Cerrando torneo: " + torneo.getNombre());
-
-
-        polideportivo.reserva(torneo, 8);
+        polideportivo.reserva(torneo, 8); // Ajustar las horas según sea necesario
     }
 
     @Override
     protected int maximoPartipantes() {
         return 4;
     }
-
-
 }
