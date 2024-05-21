@@ -10,5 +10,6 @@ public class ObservedApp2 {
         repo.addObserver(( o,u) -> System.out.println("Enviar mail al administrador"));
         repo.addObserver(( o,u) -> System.out.println("Guardando info del usuario " +u+" en el log"));
         repo.crearUsuario("Andres");
+        repo.crearUsuario("Pablo");
     }
 }

@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add state, strategy patterns">
-      <change afterPath="$PROJECT_DIR$/src/template/InscripcionLucha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/InscripcionTenis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/InscripcionTorneo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/Polideportivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/Solicitud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/Torneo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/example/TemplateApp.java" afterDir="false" />
+    <list default="true" id="d1ecf28c-4fa9-4469-ba13-9b16806ef02d" name="Changes" comment="add template and observes patterns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/example/ObservedApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/example/ObservedApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/example/ObservedApp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/example/ObservedApp2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716214902212</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add video 6,7,8 and 9 patterns">
+      <created>1716215892409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716215892409</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add template and observes patterns">
+      <created>1716216604792</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716216604792</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +209,8 @@
     <MESSAGE value="add video interpreter and visitor patterns" />
     <MESSAGE value="add memento pattern" />
     <MESSAGE value="add state, strategy patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="add state, strategy patterns" />
+    <MESSAGE value="add video 6,7,8 and 9 patterns" />
+    <MESSAGE value="add template and observes patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="add template and observes patterns" />
   </component>
 </project>

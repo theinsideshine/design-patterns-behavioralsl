@@ -19,7 +19,7 @@ public class ObservedApp {
             System.out.println("Maria: "+ observable);
         });
 
-        google.modificaPrecio(2000);
+       google.modificaPrecio(2000);
 
 
     }

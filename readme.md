@@ -36,11 +36,11 @@ Strategy pattern
 
 
 
-pattern
-[![](images)]()
+Template pattern
+[![Template](images/video-template.png)](https://youtu.be/jlpKRXI3LGA)
 
 
 
-pattern
-[![](images)]()
+Observer pattern
+[![Observer](images/video-observer.png)](https://youtu.be/GZxHEGm07pM)
 
